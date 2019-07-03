@@ -42,7 +42,10 @@ rango_masa = range(masa)
 
 quantiles_LOV = quantile(LOV)
 quantiles_masa = quantile(masa)
-Val_LOV=c(mean(LOV),median(LOV),var(LOV),sd(masa),range(masa),mean(masa),median(masa),var(masa),sd(masa),range(masa))
+Val_LOV=c(mean(LOV),median(LOV),var(LOV),sd(LOV),range(LOV))
+VAL_masa= c(mean(masa),median(masa),var(masa),sd(masa),range(masa))
 #Histograma
 hist.default(Val_LOV,col = rainbow(5),nclass=3)
+
+
 
